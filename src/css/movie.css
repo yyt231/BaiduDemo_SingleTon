@@ -1,0 +1,23 @@
+.mv1{
+    display: inline-block;
+    width: 195px;
+    height: 323px;
+    margin: 5px;
+}
+.star{font-size: 14px;
+    position: relative;
+    display:inline-block;
+    width: 65px;
+    height: 13px;
+
+    background: url("./image/star.png?__sprite ");
+}
+.star-active{
+    position: absolute;
+    display: inline-block;
+    width: 40px; height: 13px;
+    background: url("./image/star.png?__sprite ")0 -13px;
+}
+.bg-gray{
+    background-color: #F5F5F5;
+}

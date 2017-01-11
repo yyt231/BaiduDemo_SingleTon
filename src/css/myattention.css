@@ -1,0 +1,36 @@
+.attention .title {
+    height: 30px;
+    border-bottom: 1px solid #e0e0e0
+}
+
+.at-title {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.black-arrow {
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border: 5px dashed transparent;
+    border-top: 5px solid #666;
+    margin-top: 3px
+}
+
+.attention-list {
+    height: 43px;
+    border-bottom: 1px solid #e0e0e0
+}
+
+.attention-list li {
+    height: 43px;
+    width: 160px;
+    float: left;
+    text-align: center;
+    line-height: 43px;
+    font-size: 14px
+}
+
+.attention-list img {
+    margin: 5px 5px 0 0
+}

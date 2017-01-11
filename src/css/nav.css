@@ -1,0 +1,20 @@
+.nav-title{
+    font-weight: bold;
+}
+.like-menu li{
+    margin:5px;
+    float: left;
+    width: 128px;
+    height: 60px;
+    background: #fcfcfc;
+    line-height: 60px;
+    text-align: center;
+
+}
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("./image/nuomi.png?__sprite ") no-repeat;
+}

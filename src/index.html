@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="./css/tb_init.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/main.css"/>
+
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="left-menu">
+            <span>宝箱</span>
+            <span id="change-skin" class="line-text" onclick="alertSkin.openSkin()">换肤
+            <div  class="skin">
+                <div class="skin-top">
+                    <span class="skin-title">low的不能再low的换肤</span>
+                    <span id="packup" onclick="alertSkin.closeSkin()">收起</span>
+                </div>
+                <span id="colgreen" class="col-green" onclick="changSkin.change('colgreen')"></span>
+                <span id="colred" class="col-red"  onclick="changSkin.change('colred')"></span>
+                <span id="colyellow" class="col-yellow"  onclick="changSkin.change('colyellow')"></span>
+                <span id="colblue" class="col-blue"  onclick="changSkin.change('colblue')"></span>
+            </div>
+            </span>
+            <span class="line-text">消息(1)</span>
+        </div>
+        <ul class="right-menu">
+            <li><a href="" class="bold-text line-text">糯米</a></li>
+            <li><a href="" class="bold-text line-text">新闻</a></li>
+            <li><a href="" class="bold-text line-text">hao123</a></li>
+            <li><a href="" class="bold-text line-text">地图</a></li>
+            <li><a href="" class="bold-text line-text">视频</a></li>
+            <li><a href="" class="bold-text line-text">贴吧</a></li>
+            <li>
+                <div class="person-center">
+                    <a href="" class="line-text">我的</a>
+                    <div class="person-center-info">
+                        <ul>
+                            <li>我的VIP</li>
+                            <li>个人中心</li>
+                            <li>账号设置</li>
+                            <li>意见反馈</li>
+                            <li>退出</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="main-settings">
+                    <a>设置</a>
+                    <div class="main-more-settings">
+                        <ul>
+                            <li>搜索设置</li>
+                            <li>高级搜索</li>
+                            <li>开启预测</li>
+                            <li>搜索历史</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="more-product" onmouseover="mouseAction.acFadeIn('.more-product-info')" onmouseleave="mouseAction.acFadeOut('.more-product-info')" >
+                <span>更多产品</span>
+                <div class="more-product-info">
+                    <div>更多产品</div>
+                    <a><img src="./image/music.png" width="40" height="36"><div>音乐</div></a>
+                    <a><img src="./image/image.png" width="40" height="36"><div>图片</div></a>
+                    <a><img src="./image/zhidao.png" width="40" height="36"><div>知道</div></a>
+                    <a><img src="./image/wenku.png" width="40" height="36"><div>文库</div></a>
+                    <a><img src="./image/bang.png" width="40" height="36"><div>风云榜</div></a>
+                    <a><img src="./image/tuiguang.png" width="40" height="36"><div>百度推广</div></a>
+                    <a>更多产品>></a>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <div class="search-block">
+        <img src="./image/bd_logo1.png" width="270" height="129">
+        <form action="http://www.baidu.com/s?wd" method="get">
+                <span class="search-content">
+                <input id="" class="search-text" type="text"/>
+                <span class="image-search"></span>
+                </span>
+            <input class="search-btn" type="submit" value="百度一下"/>
+        </form>
+    </div>
+
+    <div class="more-info">
+        <ul class="mr-menu">
+            <li id="my-attention" class="w124 frist-menu" onclick="loadHTML.loadPage(0)"><span class="my-attention"></span>我的关注</li>
+            <li id="recommend" class="w80" onclick="loadHTML.loadPage(1)">推荐</li>
+            <li id="nav" class="w80" onclick="loadHTML.loadPage(2)">导航</li>
+            <li id="movie" class="w80" onclick="loadHTML.loadPage(3)">视频</li>
+            <li class="w80"></li>
+            <li><span class="empty-block"></span></li>
+            <li class="w49"><span class="setting"></span></li>
+        </ul>
+        <div id="mr-container" class="mr-container">
+
+        </div>
+    </div>
+
+    <div class="bd-info">
+        <div>
+            <a class="has-line w63" href="//www.baidu.com/cache/sethelp/index.html" target="_blank">设置首页</a>
+            <span style="display: inline-block">©2016 Baidu </span>
+            <a class="has-line" href="//www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+            <a class="has-line" href="http://jianyi.baidu.com">意见反馈</a>
+            <span>京ICP证030173号 </span>
+            <span></span>
+        </div>
+        <div>
+            <span></span>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001">京公网安备11000002000001号</a>
+        </div>
+    </div>
+</div>
+<script src="./js/jquery.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
